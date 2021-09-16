@@ -2,6 +2,9 @@
 
 int main()
 {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+
 	uint64_t input;
 	std::cin >> input;
 
