@@ -26,12 +26,4 @@ int main()
 
     high_rep = repetition > high_rep ? repetition : high_rep; 
     std::cout << high_rep;
-
-#ifdef ENABLE_BREAK
-	// flush the cout
-	std::cout << std::endl;
-
-	// pause (Windows only)
-	system("pause > nul");
-#endif
 }
