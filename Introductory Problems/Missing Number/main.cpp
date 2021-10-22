@@ -1,3 +1,5 @@
+/* https://www.cses.fi/problemset/task/1083 */
+
 #include <iostream>
 
 #include <vector>
@@ -29,10 +31,13 @@ int main()
 	std::cout << index + 1;
 
 #ifdef ENABLE_BREAK
-	// flush the cout
-	std::cout << std::endl;
+	// flush
+	std::cout << std::flush;
 	
-	// pause (Windows only)
-	system("pause");
+	// ignore
+	std::cin.ignore();
+	
+	// pause
+	std::cin.get();
 #endif
 }

@@ -1,3 +1,5 @@
+/* https://www.cses.fi/problemset/task/1094 */
+
 #include <iostream>
 
 int main()
@@ -22,4 +24,15 @@ int main()
     }
 
     std::cout << steps;
+
+#ifdef ENABLE_BREAK
+	// flush
+	std::cout << std::flush;
+	
+	// ignore
+	std::cin.ignore();
+	
+	// pause
+	std::cin.get();
+#endif
 }
