@@ -18,7 +18,7 @@ int main()
     std::vector<bool> bitset(n);
 
 	// fill the bitset with values
-	for (uint32_t i; i < n - 1; i++)
+	for (uint32_t i = 0u; i < n - 1; i++)
 	{
 		uint32_t in;
 		std::cin >> in;
